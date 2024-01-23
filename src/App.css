@@ -1,0 +1,12 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.Tarjeta-container {
+  display: flex;
+  justify-content: space-between; /* Para distribuir los elementos uniformemente */
+  flex-wrap: wrap; /* Para que los elementos se envuelvan a la siguiente línea si no hay suficiente espacio */
+}
