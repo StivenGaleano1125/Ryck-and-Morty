@@ -1,6 +1,6 @@
 import './App.css';
 import React, { useState, useEffect} from 'react';
-import Tarjeta from './componentes/tarjeta';
+import Tarjeta from './componentes/Tarjeta.jsx';
 
 function App() {
   const [characters, setCharacters] = useState([]);
